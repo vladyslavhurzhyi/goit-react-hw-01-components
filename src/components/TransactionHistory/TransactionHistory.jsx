@@ -17,6 +17,6 @@ export const TransactionHistory = ({ items }) => {
   );
 };
 
-TableBody.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.shape).isRequired,
+TransactionHistory.propTypes = {
+  items: PropTypes.arrayOf(PropTypes.shape({}).isRequired).isRequired,
 };
